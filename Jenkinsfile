@@ -1,5 +1,6 @@
 
 node('linux') {
+    git url: 'https://github.com/moumita12/practice.git',branch: 'master'
     stage('Test') {
         sh "env"      
     
